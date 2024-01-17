@@ -41,6 +41,11 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+    function deleteTodo(index) {
+        todos.splice(index, 1);
+        renderTodoList();
+    }
+
     addButton.addEventListener("click", addTodo);
 
     todoInput.addEventListener("keypress", function (event) {
