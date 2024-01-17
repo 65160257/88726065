@@ -2,13 +2,13 @@ body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     margin: 20px;
-    background-color: #f8f8f8;
+    background-color: #f8c385;
 }
 
 h1 {
     color: #333;
     font-size: 24px;
-    background-color: #bbffb2;
+    background-color: #eaffb2;
     padding: 15px;
     border-radius: 5px;
     color: rgb(0, 0, 0);
@@ -50,8 +50,8 @@ input[type="text"] {
 
 button {
     padding: 12px 24px;
-    background-color: #ffaced;
-    color: white;
+    background-color: #2996f0;
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 8px;
     cursor: pointer;
