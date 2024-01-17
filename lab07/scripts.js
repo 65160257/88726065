@@ -46,6 +46,11 @@ document.addEventListener("DOMContentLoaded", function () {
         renderTodoList();
     }
 
+    function toggleComplete(index) {
+        todos[index].completed = !todos[index].completed;
+        renderTodoList();
+    }
+
     addButton.addEventListener("click", addTodo);
 
     todoInput.addEventListener("keypress", function (event) {
